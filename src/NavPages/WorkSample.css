@@ -1,0 +1,18 @@
+.worksample_heading_div{
+ margin-top: 50px;
+ text-align: center;
+}
+.worksample_sub_heading{
+ font-size: 25px;
+ color:rgb(249, 105, 2);
+ font-weight: bold;
+}
+ .worksample_heading{
+  font-weight: bold;
+  color: rgb(2, 2, 52);
+  margin-bottom: 40px;
+}
+.worksample_para{
+ padding-left: 100px;
+ padding-right: 100px;
+}

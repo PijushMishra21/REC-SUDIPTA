@@ -1,0 +1,139 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+}
+/* header started */
+:root{
+ --bg_color:rgb(3, 3, 103);
+}
+
+#header{
+ position: -webkit-sticky;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ height: 130px;
+ /* left: 100px; */
+ z-index: 1;
+ background-color:rgb(253, 255, 255);
+ border: none;
+ box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+header .top_bar{
+ height: 50px;
+ background-color:green;
+ background-color:var(--bg_clor,rgb(3, 253, 253));
+ /* margin-left: 50px;
+ margin-right: 50px; */
+ display: flex;
+ padding: 8px 15px;
+ color: rgb(61, 61, 62);
+ /* color: #fff; */
+/* border-radius: 50px 50px 0px 0px; */
+border-radius: 1em/5em;
+clip-path: polygon(50% ,50%,50%);
+
+/* transform: skew(-40deg );  */
+overflow: hidden;/* Counteract the skew */
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.para_header{
+ margin-right: 50px;
+ padding-top: 5px;
+ padding: 5px;
+ font-size: 15px;
+ font-family:cursive;
+ margin-left: 100px;
+}
+
+.header_ul{
+ list-style: none;
+ /* margin-left: 20px; */
+ padding-top: 5px;
+ margin-left: 100px;
+
+}
+.header_li1{
+ text-align: right;
+ display: inline;
+ padding: 10px;
+ font-size: 18px;
+}
+/* header .nav-item{
+ text-decoration: underline;
+} */
+.navbar-nav .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #02023b;
+  transition: all 0.1s ease;
+
+}
+.navbar-nav .nav-link:hover{
+  text-decoration: overline;
+  /* color:rgb(249, 105, 2); */
+  color: red;
+  transform: scale(1.1);
+}
+.icon_telephone{
+ margin-right: 5px;
+ font-size: 20px;
+}
+.main_header{
+ /* margin-top: 15px; */
+ display: flex;
+}
+.header_image{
+ margin-top: 10px;
+ margin-right: 10px;
+ width: 100px;
+ height: 50px;
+ /* margin-left: 100px; */
+  border:none;
+}
+.main_heading{
+ /* margin-top: 10px; */
+ display: inline;
+font-size: 25px;
+padding-right: 50px;
+padding-left: 5px;
+padding: 5px;
+font-weight: 500;
+font-family: Arial, Helvetica, sans-serif;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+width: 450px;
+margin-top: 10px;
+/* margin-right: 50px; */
+color:rgb(3, 3, 84);
+}
+.navbar{
+ display: inline;
+}
+.span-div{
+  /* margin-left: 50px; */
+}
+.span{
+  width: 120px;
+   border: 1px solid red;
+   padding: 7px;
+   background-color: red;
+   color: aliceblue;
+   transition:  0.1s ease;
+   font-weight: 600;
+   border-radius: 0px 50px 50px 0px ;
+}
+.span:hover{
+  background-color: blue;
+  border: 1px solid blue;
+  transform: scale(1.2);
+}
+.navbar-nav .nav-link .active{
+  color: red;
+}
+/* header ended */
