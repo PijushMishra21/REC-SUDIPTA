@@ -8,7 +8,7 @@ import './Homepage/Header.css';
 import About from './NavPages/About';
 import Services from './NavPages/Services';
 import WorkSample from './NavPages/WorkSample';
-import { react } from '@vitejs/plugin-react';
+// import { react } from '@vitejs/plugin-react';
 
 
 
