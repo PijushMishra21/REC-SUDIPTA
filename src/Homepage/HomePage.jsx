@@ -101,7 +101,7 @@ function HomePage() {
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
-   <img className="business_image" src="../src/assets/1.png" alt="business-image" />
+   <img className="business_image" src="src/assets/1.png" alt="business-image" />
 
  </div>
 </section> 
@@ -122,11 +122,6 @@ function HomePage() {
 <b>Infrastructure Planning:</b> Design and planning services for sewerage, drainage, and water pipe networks to ensure efficient and reliable infrastructure systems..
   </p>
   <section className="service_card_section">
-  {/* <ServiceCard  title="1.Master Plan making and plotting of a mass areas" imageUrl="../src/assets/civil image.jpg"/>
-  <ServiceCard title="2.Geo tagging of land" imageUrl="src/assets/geo taging of land.jpg"/>
-  <ServiceCard title="3.Expansion Of Existing Business Limit" imageUrl="../src/assets/civil photo 2.jpg"/>
-  <ServiceCard title="3.Expansion Of Existing Business Limit" imageUrl="../src/assets/civil photo 2.jpg"/>
-  <ServiceCard title="3.Expansion Of Existing Business Limit" imageUrl="../src/assets/civil photo 2.jpg"/> */}
   <ServiceCard
       title="Master Plan making & plotting of a mass areas"
       imageUrl="../src/assets/civil image.jpg"
