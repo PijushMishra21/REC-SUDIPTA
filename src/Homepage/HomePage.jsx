@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import Footer from "./Footer";
 import Header from "./Header"
 // import InfiniteScroll from './InfiniteScroll';
 import './Header.css'
 import './HomePage.css'
-import { FaMedkit  } from "react-icons/fa";
+import {   } from "react-icons/fa";
 // import SlideImage from "./SlideImage";
 import Slide from "./Slide";
 import ServiceCard from "./ServiceCard";
