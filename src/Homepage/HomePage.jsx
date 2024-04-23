@@ -152,13 +152,7 @@ function HomePage() {
       imageUrl="src/assets/slideimages/Consultancy On financial Matters & Accounting.webp"
       para={para2}
     />
-  {/* <ServiceCard title="4.Project Report Preparation For New Project" imageUrl="../src/assets/civil photo 3.jpg"/>
-  <ServiceCard title="5.Firm / Company Formation & Registration" imageUrl="../src/assets/civil photo 2.jpg"/>
-  <ServiceCard title="6.Project Report Preparation For New Project" imageUrl="../src/assets/arrow-394142_640.webp"/> */}
-  {/* <ServiceCard price='₹10,000/km' duration='0-3 mothns' type='GPS' accuracy='15 metre' quantity='1 km' title="Gps Survey Services" imageUrl="src/assets/gps-survey-service-.webp"/>
-  <ServiceCard price='₹190/acre' duration='2-5 Days' type='Land' accuracy='5 acre' quantity='5 acre' title="Land Survey Survices" imageUrl="src/assets/landsurveying-services-.webp"/>
-  <ServiceCard price='₹7000/Day' duration='0-3 months' type='Layout And Lineout' accuracy='0' quantity='1 Day' title="layout-and-lineout-survey-service" imageUrl="src/assets/land and-survey-service-.webp"/>
-  <ServiceCard price='₹5000/Day' duration='2-7 Days' type='Soil Investigation ' accuracy='0' quantity='1 Day' title="Soil Investigation , sample collection and testing" imageUrl="src/assets/soil-land-survey-service-.webp"/> */}
+
     <ServiceCard
       title="Gps Survey Services"
       imageUrl="src/assets/gps-survey-service-.webp"
