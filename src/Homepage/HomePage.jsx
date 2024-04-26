@@ -10,7 +10,7 @@ import Slide from "./Slide";
 import ServiceCard from "./ServiceCard";
 import ContactUs from '../NavPages/ContactUs'
 import FAQ from './FAQ';
-import { Link, NavLink,useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate,   } from 'react-router-dom';
 
 
 
@@ -47,6 +47,9 @@ const paraData3 = (
 );
 
 function HomePage() {
+
+  
+
   const para = (
     <>
       <p>
@@ -102,7 +105,6 @@ function HomePage() {
  <section className="image_section">
  <div className="image_section_div">
    <img className="business_image" src="src/assets/1.png" alt="business-image" />
-
  </div>
 </section> 
 <section className="para_section">

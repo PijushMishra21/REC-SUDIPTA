@@ -1,7 +1,7 @@
 import React from 'react';
 import './ServiceCard.css'
 import { Link, } from 'react-router-dom';
-
+import ContactUs from '../NavPages/ContactUs'
 
 
 
@@ -29,7 +29,7 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
 
       <p className='para'>{para}</p>
   </div>
-  <Link>
+  <Link to='/ContactUs'>
   <button className='Quote_btn'>
     Get Quote
   </button>
