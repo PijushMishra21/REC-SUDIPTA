@@ -72,11 +72,11 @@ function HomePage() {
     </>
   );
 
-  const images = ['src/assets/slideimages/IMG-20240404-WA0011.jpg',
-  'src/assets/slideimages/IMG-20240404-WA0020.jpg',
-  'src/assets/slideimages/IMG-20240404-WA0022.jpg',
-  'src/assets/slideimages/IMG-20240404-WA0023.jpg',
-  'src/assets/slideimages/IMG-20240404-WA0028.jpg',
+  const images = ['/src/assets/slideimages/IMG-20240404-WA0011.jpg',
+  '/src/assets/slideimages/IMG-20240404-WA0020.jpg',
+  '/src/assets/slideimages/IMG-20240404-WA0022.jpg',
+  '/src/assets/slideimages/IMG-20240404-WA0023.jpg',
+  '/src/assets/slideimages/IMG-20240404-WA0028.jpg',
  ]
  
   const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
@@ -126,48 +126,48 @@ function HomePage() {
   <section className="service_card_section">
   <ServiceCard
       title="Master Plan making & plotting of a mass areas"
-      imageUrl="../src/assets/civil image.jpg"
+      imageUrl="/src/assets/civil image.jpg"
       para={para}
     />
 <ServiceCard
       title="Geo tagging of land"
-      imageUrl="src/assets/geo taging of land.jpg"
+      imageUrl="/src/assets/geo taging of land.jpg"
       para={para}
     />
 <ServiceCard
       title="Project Report  For New Project"
-      imageUrl="../src/assets/civil photo 3.jpg"
+      imageUrl="/src/assets/civil photo 3.jpg"
       para={para2}
     />
     <ServiceCard
       title="Firm/Company  Registration"
-      imageUrl="../src/assets/civil photo 2.jpg"
+      imageUrl="/src/assets/civil photo 2.jpg"
       para={para2}
     />
     <ServiceCard
       title="Consultancy On Pollution Control "
-      imageUrl="src/assets/slideimages/polution control image.jpeg"
+      imageUrl="/src/assets/slideimages/polution control image.jpeg"
       para={para2}
     />
     <ServiceCard
       title="Consultancy On financial  Accounting"
-      imageUrl="src/assets/slideimages/Consultancy On financial Matters & Accounting.webp"
+      imageUrl="/src/assets/slideimages/Consultancy On financial Matters & Accounting.webp"
       para={para2}
     />
 
     <ServiceCard
       title="Gps Survey Services"
-      imageUrl="src/assets/gps-survey-service-.webp"
+      imageUrl="/src/assets/gps-survey-service-.webp"
       para={paraData}
     />
     <ServiceCard
       title="Land Survey Survices"
-      imageUrl="src/assets/landsurveying-services-.webp"
+      imageUrl="/src/assets/landsurveying-services-.webp"
       para={paraData2}
     />
     <ServiceCard
       title="Soil Investigation"
-      imageUrl="src/assets/soil-land-survey-service-.webp"
+      imageUrl="/src/assets/soil-land-survey-service-.webp"
       para={paraData3}
     />
 <div>
@@ -199,99 +199,7 @@ function HomePage() {
 </section>
 </main>
 
-{/* <main>
-<section className="unit_sction">
-<div className="unit_sction_heading_div">
-  <h2 className="unit_sction_heading">Target Industries</h2>
-</div>
 
-<div className="unit_section_list_div">
-			<div className="toggle">
-			<div className="toggle-heading" >
-						<a  data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" >
-								<i className="fa fa-plus">{ <FaMedkit /> } </i> Manufacturing Industry
-					</a>
-			</div>								
-		</div>
-
-    <div className="toggle">
-			<div className="toggle-heading" >
-						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" >
-								<i className="fa fa-plus">{ <FaMedkit /> }</i> Real Estate Industry
-					</a>
-			</div>								
-		</div>
-    <div className="toggle">
-			<div className="toggle-heading" >
-						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" >
-								<i className="fa fa-plus">{ <FaMedkit /> }</i> Residential projects 
-                
-						</a>
-        </div>
-       </div>
-    <div className="toggle">
-			<div className="toggle-heading" >
-						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" >
-								<i className="fa fa-plus">{ <FaMedkit /> }</i> Logistic Industry
-					</a>
-			</div>								
-		</div>
-    <div className="toggle">
-			<div className="toggle-heading" >
-						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" >
-								<i className="fa fa-plus">{ <FaMedkit /> }</i> Shopping Mall projects
-					</a>
-			</div>								
-		</div>
-    <div className="toggle">
-			<div className="toggle-heading" >
-						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" >
-								<i className="fa fa-plus">{ <FaMedkit /> }</i> Petrol Pump indusry
-					</a>
-			</div>								
-		</div>
-</div>
-<button className="view_unit_btn">view all servises</button>
-</section> */}
-
-{/* 
-<section className="Business_Idea_para_section">
-  <article>
-    <div>
-      <h1>Projects Consultancy Idieas</h1>
-    </div>
-<article className="Business_Idea_para">
-  <div>
-    <p>
-  The business plan is the foundation of your investor package. However, most entrepreneurs are too busy with other priorities – such as developing products, finding customers, and recruiting a team – to prepare a compelling business plan. Since 2000, we helped many HUF or IndustriesComprehensive Solutions for Industrial and Municipal Development
-At Rajendra Engineering Consultancy, we offer a diverse range of services tailored to meet the needs of industrial and municipal projects.Our expertise encompasses:
-</p>
-<p>
-<b>Industrial or Municipal Planning:</b> Strategic planning services to optimize land usage and infrastructure development for industrial and municipal projects.
-</p>
-<p>
-  <b>Drone Survey and GIS Imagery: </b>Cutting-edge aerial surveying and mapping solutions using drone technology and Geographic Information Systems (GIS) for accurate data collection and analysis.
-</p>
-<p>
-  <b>Topographical Survey and Land Use Mapping:</b>Precise topographical surveys and land use mapping to facilitate informed decision-making and regulatory compliance.
-</p>
-<p>
-  <b>Litigation Land Demarcation and Partition Commission:</b> Expert assistance in resolving land disputes through precise demarcation and partition commission services.
-</p>
-<p>
-  <b>Preparation of Town Plans or City Plans:</b> Development of comprehensive town plans and city plans to guide sustainable urban development.
-</p>
-<p>
-  <b>Infrastructure Planning:</b> Design and planning services for sewerage, drainage, and water pipe networks to ensure efficient and reliable infrastructure systems.
-</p>
-  </div>
-</article>
-</article>
-</section> *
-
- </main>
- {/* < InfiniteScroll /> */}
- {/* <SlideImage /> */}
  <section>
  <div className='faq_image_section'>
   <div>

@@ -4,13 +4,13 @@ import './SlideImage.css'
 function Slide( ) {
  const images =
   [
- 'src/assets/slideimages/IMG-20240404-WA0004.jpg',
- 'src/assets/slideimages/IMG-20240404-WA0013.jpg',
- 'src/assets/slideimages/IMG-20240404-WA0018.jpg',
- 'src/assets/slideimages/IMG-20240404-WA0016.jpg',
- 'src/assets/slideimages/IMG-20240404-WA0001.jpg',
- 'src/assets/slideimages/IMG-20240404-WA0008.jpg',
- 'src/assets/slideimages/IMG-20240404-WA0025.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0004.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0013.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0018.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0016.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0001.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0008.jpg',
+ '/src/assets/slideimages/IMG-20240404-WA0025.jpg',
 ]
 
 
