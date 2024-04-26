@@ -19,7 +19,7 @@ function About() {
 </div>
 <aside>
  <div>
-  <img className='about_image' src="/src/assets/civil engenear happy.jpg" alt="about us image" />
+  <img className='about_image' src="/src/Images/images/civil engenear happy.jpg" alt="about us image" />
  </div>
 </aside>
  </div>
