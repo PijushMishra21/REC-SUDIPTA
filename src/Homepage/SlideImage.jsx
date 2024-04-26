@@ -3,11 +3,11 @@ import  './SlideImage.css';
 
 function SlideImage() {
   const Images = [
-    '/src/Images/slideimages/engeneer.jpg',
-    '/src/Images/slideimages/medium-shot-engineer.jpg',
-    '/src/Images/slideimages/polution control image.jpeg',
-    '/src/Images/slideimages/Consultancy On financial Matters & Accounting.webp',
-    '/src/Images/images/civile image.jpg',
+    '/public/Images/slideimages/engeneer.jpg',
+    '/public/Images/slideimages/medium-shot-engineer.jpg',
+    '/public/Images/slideimages/polution control image.jpeg',
+    '/public/Images/slideimages/Consultancy On financial Matters & Accounting.webp',
+    '/public/Images/images/civile image.jpg',
   ];
 
 

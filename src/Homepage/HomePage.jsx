@@ -72,11 +72,11 @@ function HomePage() {
     </>
   );
 
-  const images = ['/src/Images/images/slideimages/IMG-20240404-WA0011.jpg',
-  '/src/Images/images/slideimages/IMG-20240404-WA0020.jpg',
-  '/src/Images/images/slideimages/IMG-20240404-WA0022.jpg',
-  '/src/Images/images/slideimages/IMG-20240404-WA0023.jpg',
-  '/src/Images/images/slideimages/IMG-20240404-WA0028.jpg',
+  const images = ['/public/Images/images/slideimages/IMG-20240404-WA0011.jpg',
+  '/public/Images/images/slideimages/IMG-20240404-WA0020.jpg',
+  '/public/Images/images/slideimages/IMG-20240404-WA0022.jpg',
+  '/public/Images/images/slideimages/IMG-20240404-WA0023.jpg',
+  '/public/Images/images/slideimages/IMG-20240404-WA0028.jpg',
  ]
  
   const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
@@ -104,7 +104,7 @@ function HomePage() {
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
-   <img className="business_image" src="/src/Images/images/1.png" alt="business-image" />
+   <img className="business_image" src="/public/Images/images/1.png" alt="business-image" />
  </div>
 </section> 
 <section className="para_section">
@@ -126,48 +126,48 @@ function HomePage() {
   <section className="service_card_section">
   <ServiceCard
       title="Master Plan making & plotting of a mass areas"
-      imageUrl="/src/Images/images/civil image.jpg"
+      imageUrl="/public/Images/images/civil image.jpg"
       para={para}
     />
 <ServiceCard
       title="Geo tagging of land"
-      imageUrl="/src/Images/images/geo taging of land.jpg"
+      imageUrl="/public/Images/images/geo taging of land.jpg"
       para={para}
     />
 <ServiceCard
       title="Project Report  For New Project"
-      imageUrl="/src/Images/images/civil photo 3.jpg"
+      imageUrl="/public/Images/images/civil photo 3.jpg"
       para={para2}
     />
     <ServiceCard
       title="Firm/Company  Registration"
-      imageUrl="/src/Images/images/civil photo 2.jpg"
+      imageUrl="/public/Images/images/civil photo 2.jpg"
       para={para2}
     />
     <ServiceCard
       title="Consultancy On Pollution Control "
-      imageUrl="/src/Images/slideimages/polution control image.jpeg"
+      imageUrl="/public/Images/slideimages/polution control image.jpeg"
       para={para2}
     />
     <ServiceCard
       title="Consultancy On financial  Accounting"
-      imageUrl="/src/Images/slideimages/Consultancy On financial Matters & Accounting.webp"
+      imageUrl="/public/Images/slideimages/Consultancy On financial Matters & Accounting.webp"
       para={para2}
     />
 
     <ServiceCard
       title="Gps Survey Services"
-      imageUrl="/src/Images/images/gps-survey-service-.webp"
+      imageUrl="/public/Images/images/gps-survey-service-.webp"
       para={paraData}
     />
     <ServiceCard
       title="Land Survey Survices"
-      imageUrl="/src/Images/images/landsurveying-services-.webp"
+      imageUrl="/public/Images/images/landsurveying-services-.webp"
       para={paraData2}
     />
     <ServiceCard
       title="Soil Investigation"
-      imageUrl="/src/Images/images/soil-land-survey-service-.webp"
+      imageUrl="/public/Images/images/soil-land-survey-service-.webp"
       para={paraData3}
     />
 <div>
@@ -203,7 +203,7 @@ function HomePage() {
  <section>
  <div className='faq_image_section'>
   <div>
-  <img className='faq_side_image' src="src/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
+  <img className='faq_side_image' src="/public/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
   
 </div>
 
