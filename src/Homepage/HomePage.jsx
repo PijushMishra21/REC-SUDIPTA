@@ -104,7 +104,7 @@ function HomePage() {
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
-   {/* <img className="business_image" type='image/png' src="/public/Images/images/1.png" alt="business-image" /> */}
+   <img className="business_image" type='image/png' src="/public/1.png" alt="business-image" />
  </div>
 </section> 
 <section className="para_section">
@@ -131,43 +131,43 @@ function HomePage() {
     />
 <ServiceCard
       title="Geo tagging of land"
-      imageUrl="/public/Images/images/geo taging of land.jpg"
+      imageUrl=""
       para={para}
     />
 <ServiceCard
       title="Project Report  For New Project"
-      imageUrl="/public/Images/images/civil photo 3.jpg"
+      imageUrl=""
       para={para2}
     />
     <ServiceCard
       title="Firm/Company  Registration"
-      imageUrl="/public/Images/images/civil photo 2.jpg"
+      imageUrl=""
       para={para2}
     />
     <ServiceCard
       title="Consultancy On Pollution Control "
-      imageUrl="/public/Images/slideimages/polution control image.jpeg"
+      imageUrl=""
       para={para2}
     />
     <ServiceCard
       title="Consultancy On financial  Accounting"
-      imageUrl="/public/Images/slideimages/Consultancy On financial Matters & Accounting.webp"
+      imageUrl=""
       para={para2}
     />
 
     <ServiceCard
       title="Gps Survey Services"
-      imageUrl="/public/Images/images/gps-survey-service-.webp"
+      imageUrl=""
       para={paraData}
     />
     <ServiceCard
       title="Land Survey Survices"
-      imageUrl="/public/Images/images/landsurveying-services-.webp"
+      imageUrl=""
       para={paraData2}
     />
     <ServiceCard
       title="Soil Investigation"
-      imageUrl="/public/Images/images/soil-land-survey-service-.webp"
+      imageUrl=""
       para={paraData3}
     />
 <div>
@@ -203,7 +203,7 @@ function HomePage() {
  <section>
  <div className='faq_image_section'>
   <div>
-  <img className='faq_side_image'  src="public/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
+  <img className='faq_side_image'  src="" alt="faq_side_image" />
   
 </div>
 
