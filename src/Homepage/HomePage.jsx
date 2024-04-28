@@ -104,7 +104,7 @@ function HomePage() {
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
-   <img className="business_image" src="/public/Images/images/1.png" alt="business-image" />
+   <img className="business_image" type='image/png' src="/public/Images/images/1.png" alt="business-image" />
  </div>
 </section> 
 <section className="para_section">
@@ -203,7 +203,7 @@ function HomePage() {
  <section>
  <div className='faq_image_section'>
   <div>
-  <img className='faq_side_image' src="/public/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
+  <img className='faq_side_image'  src="/public/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
   
 </div>
 

@@ -3,7 +3,7 @@ import { FaPhoneAlt,FaPeriscope   } from "react-icons/fa";
 import './Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, NavLink } from 'react-router-dom';
-
+import require from 'react'
 
 function Header() {
   
