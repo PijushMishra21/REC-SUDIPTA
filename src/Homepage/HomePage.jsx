@@ -203,7 +203,7 @@ function HomePage() {
  <section>
  <div className='faq_image_section'>
   <div>
-  <img className='faq_side_image'  src="/public/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
+  <img className='faq_side_image'  src="public/Images/slideimages/medium-shot-engineer.jpg" alt="faq_side_image" />
   
 </div>
 
