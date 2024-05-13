@@ -111,7 +111,7 @@ function HomePage() {
 <section className="para_section">
  <aside>
  <div className="Servises_heading_div">
-  <p className="Servises_sub_heading"> --Our Servises--</p>
+  <p className="Servises_sub_heading"> -- Servises--</p>
   <h1 className="Servises_heading">What We are Doing ?</h1>
  </div>
 <article>
