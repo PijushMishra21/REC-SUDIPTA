@@ -5,7 +5,7 @@ import Header from "./Header"
 import './Header.css'
 import './HomePage.css'
 import {   } from "react-icons/fa";
-import homepng from 'public/home.PNG'
+import homepng from '/public/home.png'
 // import SlideImage from "./SlideImage";
 import Slide from "./Slide";
 import ServiceCard from "./ServiceCard";
