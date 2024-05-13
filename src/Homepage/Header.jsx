@@ -21,7 +21,7 @@ function Header() {
       <div className="container">
 					
           <div className="main_header">
-          <img className="header_image" src="" alt="website-logo" />
+          <img className="header_image" src="/public/home.PNG" alt="website-logo" />
            <h1 className="main_heading">Rajendra Engineering Consultancy</h1>
         
     <nav className="navbar navbar-expand-sm navbar-light ">
