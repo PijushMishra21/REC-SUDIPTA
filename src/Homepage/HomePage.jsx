@@ -5,7 +5,6 @@ import Header from "./Header"
 import './Header.css'
 import './HomePage.css'
 import {   } from "react-icons/fa";
-import homepng from '/public/home.png'
 // import SlideImage from "./SlideImage";
 import Slide from "./Slide";
 import ServiceCard from "./ServiceCard";
@@ -105,7 +104,7 @@ function HomePage() {
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
-   <img className="business_image" type='image/png' src={homepng} alt="business-image" />
+   <img className="business_image" type='image/png' src='' alt="business-image" />
  </div>
 </section> 
 <section className="para_section">
